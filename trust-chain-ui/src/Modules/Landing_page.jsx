@@ -17,6 +17,10 @@ const LandingPage = () => {
     navigate('/organisation/register');
   };
 
+  const handleUserRegister = () => {
+    navigate('/user/register');
+  }
+
   return (
     <div className="app">
       <div className="slider-container">
@@ -43,7 +47,7 @@ const LandingPage = () => {
             <p className="register-text">Do not have an Account</p>
             <div className="register-buttons">
               <button className="register-org-button" onClick={handleOrgRegister}>Register as Organisation</button>
-              <button className="register-user-button">Register as User</button>
+              <button className="register-user-button" onClick={handleUserRegister}>Register as User</button>
             </div>
           </div>
         </div>

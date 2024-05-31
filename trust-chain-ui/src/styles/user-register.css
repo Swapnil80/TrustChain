@@ -1,0 +1,165 @@
+ .app {
+    display: flex;
+    height: 100vh,
+ }
+
+ .header-text {
+    text-align: left;
+    /* margin-bottom: 20px; */
+    margin-top: 99,
+ }
+ .welcome-text,
+ .description {
+    font-size : 25px;
+    color: #666;
+    margin: 0;
+    margin-bottom: 10px;
+ }
+ .welcome-text{
+    margin-bottom: 5px;
+ }
+
+  .slider-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  .form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 40px 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+  }
+  .register{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #1747c3;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-radius: 25px;
+  }
+
+  .user-registration-form-section{
+    margin: 20px 0
+  }
+  
+  .form-input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(50% - 10px);
+  }
+  
+  .form-input.full-width {
+    width: 100%;
+  }
+
+  .user-form-label {
+    font-size: 18px;
+    color: blue;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-button {
+    background-color: #1747c3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .form-button.secondary {
+    background-color: #747f98;
+  }
+  
+  .login-link {
+    color: #1747c3;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+
+  .login-login-buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  margin-top: 10px;
+}
+
+  .login-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    white-space: nowrap;
+    width: 100%; 
+  }
+
+  .login-login-user-button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+  }
+
+  .login-login-org-button {
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+  }
+  
+  .login-login-user-button:hover {
+    background-color: white;
+    color: blue
+  }
+  
+  .login-login-org-button:hover {
+    background-color: blue;
+    color: white;
+  }
+  .user-login-button{
+    margin-top: 10px;
+  }
